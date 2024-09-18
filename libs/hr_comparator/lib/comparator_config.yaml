@@ -1,0 +1,14 @@
+groups:
+  w1: 0.15   # Job format
+  w2: 0.3    # Basic experience
+  w3: 0.3    # Hard skills
+  w4: 0.25   # Job requirements
+criteria:
+  w11: 0.6   # Salary
+  w12: 0.15  # Full-time
+  w13: 0.15  # Offline
+  w21: 0.7   # Experience years
+  w22: 0.3   # Education
+  w31: 0.4   # Core skill
+  w32: 0.6   # Hard skills
+  w41: 1.0   # Job experience

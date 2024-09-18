@@ -3,7 +3,7 @@ CV-Vacancy Comparator Features
 
 Assessing the correspondence between the fields of the vacancy and the CV to generate recommendations for filling out the fields, questions for the candidate and an overall assessment of the correspondence between the CV and the vacancy to rank candidates.
 
-.. image:: ../../img/en/UML_comparator.png
+.. image:: ../../img/UML_comparator.png
     :width: 700px
     :align: center
     :alt: Comparator Diagram

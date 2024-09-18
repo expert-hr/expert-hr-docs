@@ -3,7 +3,7 @@ CV-Vacancy Parser Features
 
 Processing incoming requests for parsing resumes and vacancies and interacting with other modules to perform parsing tasks.
 
-.. image:: ../../img/en/UML_parser.png
+.. image:: ../../img/UML_parser.png
     :width: 700px
     :align: center
     :alt: Comparator Diagram
