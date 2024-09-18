@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException, status
 
-from libs.hr_comparator.app.schemas.resume import Resume
-from libs.hr_comparator.app.schemas.vacancy import Vacancy
-from libs.hr_comparator.app.schemas.total_score import TotalScore
-from libs.hr_comparator.lib.comparator import Comparator
+from apps.libs.hr_comparator.app.schemas.resume import Resume
+from apps.libs.hr_comparator.app.schemas.vacancy import Vacancy
+from apps.libs.hr_comparator.app.schemas.total_score import TotalScore
+from apps.libs.hr_comparator.lib.comparator import Comparator
 
 
 router = APIRouter()

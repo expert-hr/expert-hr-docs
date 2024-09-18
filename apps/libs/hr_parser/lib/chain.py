@@ -1,5 +1,5 @@
 from typing import Annotated, Union
-from app.schemas import Resume, Vacancy
+from apps.libs.hr_parser.app.schemas import Resume, Vacancy
 
 from langchain.chains import LLMChain
 from langchain.output_parsers import OutputFixingParser

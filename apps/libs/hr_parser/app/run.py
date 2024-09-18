@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from mangum import Mangum
 
-from app.routes.parser import router
+from apps.libs.hr_parser.app.routes.parser import router
 
 app = FastAPI()
 app.add_middleware(

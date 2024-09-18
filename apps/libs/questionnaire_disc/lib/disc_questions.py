@@ -1,7 +1,7 @@
 import json
 from typing import List
 
-from app.schemas.disc_questionnaire import DISCQuestionListSchema, DISCScoresSchema, ScoreSchema
+from apps.libs.questionnaire_disc.app.schemas.disc_questionnaire import DISCQuestionListSchema, DISCScoresSchema, ScoreSchema
 
 
 async def get_disc_questions() -> DISCQuestionListSchema:

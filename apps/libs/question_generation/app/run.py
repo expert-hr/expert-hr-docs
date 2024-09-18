@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from mangum import Mangum
 
-from app.routes.questions import generation_router
+from apps.libs.question_generation.app.routes.questions import generation_router
 
 app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=[

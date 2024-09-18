@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 
-from libs.hr_comparator.app.schemas.resume import ResumeScore
+from apps.libs.hr_comparator.app.schemas.resume import ResumeScore
 
 
 class TotalScore(BaseModel):

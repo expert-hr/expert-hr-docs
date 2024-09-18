@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from mangum import Mangum
 
-from app.routes.disc import disc_router
+from apps.libs.questionnaire_disc.app.routes.disc import disc_router
 
 app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=[

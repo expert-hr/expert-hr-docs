@@ -1,14 +1,14 @@
 from environs import Env
 from openai import AsyncOpenAI as OpenAI
 
-from app.schemas.questions import QuestionAnswerListSchema, QuestionAnswerSchema, QuestionListSchema, QuestionSchema
-from app.schemas.resume import Resume
-from app.schemas.resume_scored import ResumeScore
-from app.schemas.vacancy import Vacancy
-from app.schemas.vacancy_scored import VacancyScore
-from app.utils import remove_numeration
-from lib.questionnaire_gen import check_empty, check_skills, compare_full_time
-from lib.templates import generation_prompt
+from apps.libs.question_generation.app.schemas.questions import QuestionAnswerListSchema, QuestionAnswerSchema, QuestionListSchema, QuestionSchema
+from apps.libs.question_generation.app.schemas.resume import Resume
+from apps.libs.question_generation.app.schemas.resume_scored import ResumeScore
+from apps.libs.question_generation.app.schemas.vacancy import Vacancy
+from apps.libs.question_generation.app.schemas.vacancy_scored import VacancyScore
+from apps.libs.question_generation.app.utils import remove_numeration
+from apps.libs.question_generation.lib.questionnaire_gen import check_empty, check_skills, compare_full_time
+from apps.libs.question_generation.lib.templates import generation_prompt
 
 
 env = Env()

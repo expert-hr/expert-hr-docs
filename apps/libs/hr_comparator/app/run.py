@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from mangum import Mangum
 
-from libs.hr_comparator.app.routes.comparator import router as compare_router
+from apps.libs.hr_comparator.app.routes.comparator import router as compare_router
 
 
 app = FastAPI()

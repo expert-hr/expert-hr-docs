@@ -1,13 +1,13 @@
 from fastapi import APIRouter, HTTPException, status
 
-from app.schemas.questions import (QuestionAnswerListSchema,
+from apps.libs.question_generation.app.schemas.questions import (QuestionAnswerListSchema,
                                    QuestionAnswerSchema, QuestionListSchema,
                                    QuestionSchema)
-from app.schemas.resume import Resume
-from app.schemas.resume_scored import ResumeScoreExtended
-from app.schemas.vacancy import Vacancy
-from app.schemas.vacancy_scored import VacancyScoreExtended
-from lib.generation import gen_questionnaire, gen_tech_questions
+from apps.libs.question_generation.app.schemas.resume import Resume
+from apps.libs.question_generation.app.schemas.resume_scored import ResumeScoreExtended
+from apps.libs.question_generation.app.schemas.vacancy import Vacancy
+from apps.libs.question_generation.app.schemas.vacancy_scored import VacancyScoreExtended
+from apps.libs.question_generation.lib.generation import gen_questionnaire, gen_tech_questions
 
 generation_router = APIRouter()
 

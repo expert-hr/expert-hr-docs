@@ -4,9 +4,9 @@ from typing import Annotated, Union
 from fastapi import APIRouter, File, HTTPException, status
 from langchain.schema.output_parser import OutputParserException
 
-from lib.chain import build_chain
-from app.schemas import Resume, Vacancy
-from app.utils import pdf_to_markdown, extract_images, detect_face
+from apps.libs.hr_parser.lib.chain import build_chain
+from apps.libs.hr_parser.app.schemas import Resume, Vacancy
+from apps.libs.hr_parser.app.utils import pdf_to_markdown, extract_images, detect_face
 
 router = APIRouter()
 

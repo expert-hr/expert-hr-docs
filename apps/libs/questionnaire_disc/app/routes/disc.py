@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
 
-from app.schemas.disc_questionnaire import DISCQuestionListSchema, DISCScoresSchema
-from lib.disc_questions import get_disc_questions, get_disc_score
+from apps.libs.questionnaire_disc.app.schemas.disc_questionnaire import DISCQuestionListSchema, DISCScoresSchema
+from apps.libs.questionnaire_disc.lib.disc_questions import get_disc_questions, get_disc_score
 
 
 disc_router = APIRouter()

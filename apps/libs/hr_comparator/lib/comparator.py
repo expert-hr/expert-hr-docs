@@ -5,10 +5,10 @@ from langchain.chat_models import ChatOpenAI
 from json import JSONDecodeError
 import json
 
-from libs.hr_comparator.app.schemas.resume import Resume, ResumeScore, ResumeScoredItem
-from libs.hr_comparator.app.schemas.vacancy import Vacancy
-from libs.hr_comparator.app.schemas.total_score import TotalScore
-from libs.hr_comparator.lib.utils import load_data_from_json, load_data_from_yaml
+from apps.libs.hr_comparator.app.schemas.resume import Resume, ResumeScore, ResumeScoredItem
+from apps.libs.hr_comparator.app.schemas.vacancy import Vacancy
+from apps.libs.hr_comparator.app.schemas.total_score import TotalScore
+from apps.libs.hr_comparator.lib.utils import load_data_from_json, load_data_from_yaml
 
 
 core_language_list = ["(python)$", "(java)$", "c\\+\\+", "(c)$", "(javascript)$", "(c#)$", "(go)$", "(typescript)$", "(html)$", "(css)$", "(php)$"]

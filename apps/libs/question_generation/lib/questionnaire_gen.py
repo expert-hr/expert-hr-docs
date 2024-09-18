@@ -1,8 +1,8 @@
 from typing import List
 
-from app.schemas.questions import AnswerType, QuestionAnswerSchema
-from app.schemas.resume_scored import ResumeScore
-from lib.questions_and_fields import (compare_full_time_field, empty_fields,
+from apps.libs.question_generation.app.schemas.questions import AnswerType, QuestionAnswerSchema
+from apps.libs.question_generation.app.schemas.resume_scored import ResumeScore
+from apps.libs.question_generation.lib.questions_and_fields import (compare_full_time_field, empty_fields,
                                       question_fields)
 
 
