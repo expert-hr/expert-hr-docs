@@ -1,4 +1,4 @@
-Video reader
+Video Reader
 ============
 .. automodule:: apps.expert.data.video_reader
    :members:

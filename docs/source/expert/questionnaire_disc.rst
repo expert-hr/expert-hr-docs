@@ -1,5 +1,5 @@
-DISC Module Features
-====================
+DISC Module
+===========
 
 Module for calculating the assessment of dominants according to DISC.
 

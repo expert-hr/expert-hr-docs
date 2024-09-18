@@ -1,7 +1,7 @@
-Expert
-======
+Expert-HR
+=========
 
-**That is all about Expert**
+**That is all about Expert-HR**
 
 .. toctree::
    :glob:

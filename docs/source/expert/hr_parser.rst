@@ -1,5 +1,5 @@
-CV-Vacancy Parser Features
-==========================
+CV-Vacancy Parser
+=================
 
 Processing incoming requests for parsing resumes and vacancies and interacting with other modules to perform parsing tasks.
 

@@ -1,7 +1,7 @@
 Components
 ==========
 
-**That is about modules into Expert**
+**That is about modules into Expert-HR**
 
 .. toctree::
    :glob:

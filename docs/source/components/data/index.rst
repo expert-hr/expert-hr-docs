@@ -1,7 +1,7 @@
 Data
 ====
 
-**That is about Data module in Expert**
+**That is about Data module in Expert-HR**
 
 .. toctree::
    :glob:

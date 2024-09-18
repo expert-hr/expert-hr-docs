@@ -1,5 +1,5 @@
-Questions Generator Features
-============================
+Questions Generator
+===================
 
 Generating interview questions based on matches and mismatches between the vacancy and resume fields.
 

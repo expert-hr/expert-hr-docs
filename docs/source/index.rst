@@ -15,6 +15,6 @@ Content:
    components/index
    about
 
-**Expert** is an intelligent recruitment platform. The service compares information about candidates with job requirements, evaluates their compliance, ranks them by relevance and generates personalized interview questions.
+**Expert-HR** is an intelligent recruitment platform. The service compares information about candidates with job requirements, evaluates their compliance, ranks them by relevance and generates personalized interview questions.
 
 .. |logo| image:: ../img/en/logo_en.png
