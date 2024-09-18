@@ -9,4 +9,5 @@ Components
 
    data/index.rst
    core/index.rst
+   api/index.rst
 

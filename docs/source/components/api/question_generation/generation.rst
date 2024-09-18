@@ -1,5 +1,5 @@
 Question Generation generation
 ==============================
-.. automodule:: libs.question_generation.lib.generation
+.. automodule:: apps.libs.question_generation.lib.generation
    :members:
    :no-undoc-members:

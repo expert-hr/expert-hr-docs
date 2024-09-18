@@ -11,7 +11,3 @@ Core
    confidence/index.rst
    congruence/index.rst
    distortion/index.rst
-   hr_comparator/index.rst
-   hr_parser/index.rst
-   question_generation/index.rst
-   questionnaire_disc/index.rst
