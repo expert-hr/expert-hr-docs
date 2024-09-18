@@ -5,7 +5,7 @@ APIs
 
 .. toctree::
    :glob:
-   :maxdepth: 3
+   :maxdepth: 5
 
    hr_comparator/index.rst
    hr_parser/index.rst

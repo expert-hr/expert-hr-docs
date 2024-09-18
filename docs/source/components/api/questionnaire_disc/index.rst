@@ -5,6 +5,6 @@ DISC Module
 
 .. toctree::
    :glob:
-   :maxdepth: 4
+   :maxdepth: 10
 
    disc_questions

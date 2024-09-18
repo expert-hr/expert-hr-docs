@@ -22,7 +22,7 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 
 # -- Project information -----------------------------------------------------
 
-project = "Expert"
+project = "Expert HR"
 copyright = "2021-{}, NSS Lab".format(datetime.datetime.now().year)
 author = "NSS Lab"
 

@@ -5,7 +5,7 @@ Question Generation
 
 .. toctree::
    :glob:
-   :maxdepth: 4
+   :maxdepth: 10
 
    generation
    questionnaire_gen

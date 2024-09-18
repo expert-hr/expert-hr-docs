@@ -5,7 +5,7 @@ HR-Parser
 
 .. toctree::
    :glob:
-   :maxdepth: 4
+   :maxdepth: 10
 
    template
    chain

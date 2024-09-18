@@ -5,7 +5,7 @@ HR-Comparator
 
 .. toctree::
    :glob:
-   :maxdepth: 4
+   :maxdepth: 10
 
    comparator
    utils
